@@ -5,12 +5,11 @@ import io.restassured.path.json.JsonPath;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
+import static utils.Const.*;
+import static utils.Payload.*;
+import static utils.Util.*;
 
 import org.testng.Assert;
-
-import static files.Const.*;
-import static files.Payload.*;
-import static files.Util.*;
 
 
 public class Runner {

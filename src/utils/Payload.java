@@ -1,4 +1,4 @@
-package files;
+package utils;
 
 public class Payload {
 	
@@ -25,6 +25,15 @@ public class Payload {
 				+ "    \"place_id\": \"" + placeId + "\",\n"
 				+ "    \"address\": \"" + newAddress + "\",\n"
 				+ "    \"key\": \"qaclick123\"\n"
+				+ "}";
+	}
+	
+	public static String AddBook(String bookName, String isbn, String aisle, String author) {
+		return "{\n"
+				+ "    \"name\": \"" + bookName + "\",\n"
+				+ "    \"isbn\": \"" + isbn + "\",\n"
+				+ "    \"aisle\": \"" + aisle + "\",\n"
+				+ "    \"author\": \"" + author + "\"\n"
 				+ "}";
 	}
 
